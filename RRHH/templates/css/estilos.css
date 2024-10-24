@@ -1,0 +1,48 @@
+
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.footer a {
+    color: #6a11cb;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.icon-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc; /* Borde opcional */
+    transition: transform 0.3s ease; /* Animación para el hover */
+}
+
+.icon-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegurar que la imagen cubra el contenedor */
+}
+
+.btn-icon {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit; /* Mantener el color del texto */
+}
+
+.icon-container:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el mouse */
+    border-color: #007bff; /* Cambiar el color del borde al pasar el mouse */
+}
+
+h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
